@@ -1,0 +1,10 @@
+a = []
+m = []
+for c in range(5):
+    a.append(int(input('digite um numero: ')))
+x = int(input('digte o multiplicador: '))
+for z in range(5):
+    m.append(a[z]*x)
+print(a)
+print(x)
+print(m)
