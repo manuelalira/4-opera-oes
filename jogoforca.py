@@ -2,7 +2,7 @@ import random
 
 def forca():
     palavras = []
-    for x in range(5):
+    for x in range(10):
         palavras.append(input("digite 10 palavras: "))
     palavra_secreta = random.choice(palavras)
     letras_descobertas = ['_'] * len(palavra_secreta)
